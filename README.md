@@ -27,11 +27,16 @@ The Sentence rule randomly selects 1 of 8 sentence structures and fills it with 
 The second half uses a Markov chain trained on a small collection of sentences (written by me) based on characters and events from Coraline.
 I set the order as 2, meaning the next word is determined by its previous 2 words.
 
-### 3. Generation
+### 3. Generation process & sample output
 For each run, the program generates:
 - 8 sentences using the generative grammar (1st half)
 - 70 words using the Markov chain (2nd half)
-The output is separated into two sections so the two different generative approaches can be compared.
+(in the zip)
+- example output 1.png
+- example output 2.png
+- example output 3.png
+- example output 4.png
+- example output 5.png
 
 ### 4. Challenge
 1 challenge was maintaining coherence in the Markov-generated text.
@@ -48,14 +53,6 @@ I chose Coraline as the inspiration for this assignment thanks to the chaotic, s
 The 1st half uses generative grammar and the 2nd half uses a Markov chain to create unpredictable stories.
 
 The goal is not to create a coherent story, but to see how the signature spooky vibes of Coraline can still be emerged when its characters, settings, events are randomly combined. The strange and sometimes repetitive results create an alternate version of Coraline that is different, but yet still preserve the original spooky vibes.
-
-## Sample outputs
-(in the zip)
-- example output 1.png
-- example output 2.png
-- example output 3.png
-- example output 4.png
-- example output 5.png
 
 
 ## Requirements
