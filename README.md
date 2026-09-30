@@ -9,14 +9,14 @@ The story is divided into two parts:
 ### 1. Generative Grammar for the 1st half
 The first half uses a rule-based generative grammar.
 I used different categories to construct the overall grammar rule, those categories are:
-* **Characters** — Coraline, the other mother, the black cat, Wybie, etc.
-* **Actions** — walked, ran, searched around, etc.
-* **Interactions** — followed, fought, laughed with, etc.
-* **Locations** — the Pink Palace, the garden, the tiny door, etc.
-* **Descriptions** — descriptions of different locations
-* **Thoughts** — different thoughts Coraline or other characters might have
-* **Objects** — the key, the tiny door, the snow globe, etc.
-* **Object interactions** — destroyed, found, threw, etc.
+* **Characters**: Coraline, the other mother, the black cat, Wybie, etc.
+* **Actions**: walked, ran, searched around, etc.
+* **Interactions**: followed, fought, laughed with, etc.
+* **Locations**: the Pink Palace, the garden, the tiny door, etc.
+* **Descriptions**: descriptions of different locations
+* **Thoughts**: different thoughts Coraline or other characters might have
+* **Objects**: the key, the tiny door, the snow globe, etc.
+* **Object interactions**: destroyed, found, threw, etc.
 
 The Sentence rule randomly selects 1 of 8 sentence structures and fills it with randomly selected words from these categories.
 
@@ -48,15 +48,15 @@ The goal is not to create a coherent story, but to see how the signature spooky 
 
 ## Sample outputs
 (in the zip)
-example output 1.png
-example output 2.png
-example output 3.png
-example output 4.png
-example output 5.png
+- example output 1.png
+- example output 2.png
+- example output 3.png
+- example output 4.png
+- example output 5.png
 
 
 ## Requirements
 Apart from 
-  import random
-  from collections import defaultdict
+- import random
+- from collections import defaultdict
 , no external packages are required.
