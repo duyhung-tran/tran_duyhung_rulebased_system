@@ -1,5 +1,6 @@
 # Coraline: Another version
 This is a story generator, whose generated content is inspired by the movie & book *Coraline*. 
+
 This project combines a **generative grammar** and a **Markov chain** to create a randomly generated story, based on the characters, locations, events happened in Coraline.
 
 
@@ -11,6 +12,7 @@ The story is divided into two parts:
 
 ### 1. Generative Grammar for the 1st half
 The first half uses a rule-based generative grammar.
+
 I used different categories to construct the overall grammar rule, those categories are:
 * **Characters**: Coraline, the other mother, the black cat, Wybie, etc.
 * **Actions**: walked, ran, searched around, etc.
@@ -31,7 +33,8 @@ I set the order as 2, meaning the next word is determined by its previous 2 word
 For each run, the program generates:
 - 8 sentences using the generative grammar (1st half)
 - 70 words using the Markov chain (2nd half)
-(in the zip)
+
+Example output files:
 - example output 1.png
 - example output 2.png
 - example output 3.png
