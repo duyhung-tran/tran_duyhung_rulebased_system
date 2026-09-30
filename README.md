@@ -3,6 +3,9 @@ This is a story generator, whose generated content is inspired by the movie & bo
 This project combines a **generative grammar** and a **Markov chain** to create a randomly generated story, based on the characters, locations, events happened in Coraline.
 
 
+GitHub repo: https://github.com/duyhung-tran/tran_duyhung_rulebased_system 
+
+
 ## Technical documentation
 The story is divided into two parts:
 
